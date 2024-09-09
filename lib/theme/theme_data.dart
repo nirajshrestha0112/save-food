@@ -4,7 +4,7 @@ import '/utils/size_config.dart';
 ThemeData lightTheme(BuildContext context) {
   return ThemeData(
     primaryColor: Colors.green,
-    scaffoldBackgroundColor: Colors.green,
+    scaffoldBackgroundColor: const Color.fromRGBO(76, 175, 80, 1),
     iconTheme: const IconThemeData(color: Colors.blue),
     canvasColor: const Color(0xffE5E5E5),
     appBarTheme: const AppBarTheme(
